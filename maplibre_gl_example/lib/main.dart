@@ -41,6 +41,7 @@ import 'examples/layers/line_layer_example.dart';
 import 'examples/layers/symbol_layer_example.dart';
 import 'examples/layers/edit_style_layer_animated.dart';
 import 'examples/layers/edit_style_layer_draggable.dart';
+import 'examples/layers/move_layer_example.dart';
 
 // Advanced examples
 import 'examples/advanced/offline_regions.dart';
@@ -149,6 +150,7 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   const LineLayerExample(),
   const EditStyleLayerAnimatedExample(),
   const EditStyleLayerDraggableExample(),
+  const MoveLayerExample(),
 
   // Advanced
   const MapLanguageExample(),
