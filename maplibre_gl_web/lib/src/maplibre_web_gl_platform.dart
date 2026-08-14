@@ -1197,6 +1197,11 @@ class MapLibreMapController extends MapLibrePlatform
   }
 
   @override
+  Future<void> moveLayer(String layerId, {String? belowLayerId}) async {
+    _map.moveLayer(layerId, belowLayerId);
+  }
+
+  @override
   Future<void> setFilter(String layerId, dynamic filter) async {
     _map.setFilter(layerId, filter);
   }
